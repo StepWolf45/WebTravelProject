@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+
+header li{
+    display:inline-block;
+    font-family: 'Amatic SC';
+    font-size:50px;
+    color:black;
+    margin:3px 40px 10px 30px ;
+    padding-bottom:1px;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition:0.5s;
+    vertical-align:bottom;
+
+}
+header a{
+    color:black;
+    text-decoration: none;
+
+}
+header a:active {
+
+color:black;
+
+text-decoration:none;
+
+}
+
+header a:visited {
+
+color:black;
+
+text-decoration:none;
+
+}
+
+header li:hover{
+    background-size: 100% 2px;
+
+
+}
+header ul{
+    margin:0px;
+
+
+}
+header{
+    height:56px;
+    padding:30px 0px 0px 0px ;
+
+}
+
+
+body{
+    background-image: url('https://img.pac.ru/landmarks/385375/big/48BFD1B57F00010123A0A5A838EC8D8C.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 900px;
+    background-attachment: fixed;
+    background-position: center;
+    width:100%;
+    margin:0px;
+
+
+
+
+}
+.icon{
+    width:60px;
+    border: 2px solid #000000;
+    vertical-align:top;
+    margin-right: 20px;
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+}
+
+.glav{
+    border-top: 2px double black;
+    background-color:#FFEBCD;
+    width:100%;
+    height:1200px;
+    margin-top:420px;
+    padding:50px 0px 0px 0px;
+}
+.glav h1{
+    border: 2px ridge black;
+    padding: 10px 10px 10px 20px;
+    margin:auto;
+    background-color:#B0E0E6;
+    width:500px;
+    color:black;
+    font-family: 'Roboto Slab';
+    font-weight: 200;
+    font-size: 50px;
+
+
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+.p{
+    width:100%;
+    height:300px;
+    margin-top:30px;
+     transition: 0.5s;
+}
+
+.p:hover{
+    background-color: burlywood;
+    transition: 0.5s;
+}
+.p img {
+    width:350px;
+    border: 2px solid black;
+    position: relative;
+    left:190px;
+    top:30px;
+     transition: 0.5s;
+}
+.p img:hover{
+    box-shadow:10px 10px 0px #8B4513;
+     transition: 0.5s;
+}
+
+.p p{
+    display: inline-block;
+    font-family: 'Roboto Slab';
+    font-size:20px;
+    font-weight: 600;
+    width:850px;
+    position:relative;
+    left:250px;
+    top:-20px;
+
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+
+.o{
+    width:100%;
+    height:300px;
+    margin-top:30px;
+     transition: 0.5s;
+}
+.o:hover{
+    background-color: burlywood;
+    transition: 0.5s;
+}
+.o p{
+    display: inline-block;
+    font-family: 'Roboto Slab';
+    font-size:20px;
+    font-weight: 600;
+    width:850px;
+    position:relative;
+    right:170px;
+    top:-20px;
+
+}
+.o img{
+    width:350px;
+    border: 2px solid black;
+    position: relative;
+    left:1110px;
+    top:30px;
+    transition: 0.5s;
+}
+.o img:hover{
+    box-shadow:-10px -10px 0px #B8860B;
+    box-shadow:-10px -10px 0px #B8860B;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+.l{
+    width:100%;
+    height:300px;
+    margin-top:30px;
+     transition: 0.5s;
+}
+.l:hover{
+    background-color: burlywood;
+    transition: 0.5s;
+}
+.l p{
+    display: inline-block;
+    font-family: 'Roboto Slab';
+    font-size:20px;
+    font-weight: 600;
+    width:850px;
+        position:relative;
+    left:250px;
+    top:-20px;
+
+}
+.l img{
+    width:350px;
+    height:240px;
+    border: 2px solid black;
+    position: relative;
+    left:180px;
+    top:30px;
+    transition: 0.5s;
+}
+.l img:hover{
+    box-shadow: 10px -10px 0px #556B2F;
+     transition: 0.5s;
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+.het{
+    background-color:#FFFFE0;
+    border-top: 2px solid black;
+    height:70px;
+    width:100%;
+
+
+}
+.het i{
+  font-size: 30px;
+  margin:20px;
+  transition: 0.5s;
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 1366px){
+     body{
+    background-size: 100% 60%;
+    background-position:top;
+
+   }
+    header li{
+       font-size:60px;
+    }
+    .icon{
+       width:76px;
+    }
+    header{
+    padding:45px 0px 0px 0px;
+
+    }
+     .r{
+         margin-top:450px;
+    }
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
+     .o{
+    width:100%;
+    height:360px;
+    margin-top:50px;
+
+    }
+    .o p{
+      font-size:22px;
+      font-weight: 600;
+      width:600px;
+      position:relative;
+      left:-260px;
+      top:40px;
+
+  }
+
+   .o img {
+    width:300px;
+    position: relative;
+    left:700px;
+    top:4px;
+
+  }
+
+  /*-------------------------------------------------------------------------------------------------------------------------*/
+     .p{
+       width:100%;
+       height:360px;
+       margin-top:30px;
+       transition: 0.5s;
+    }
+   .p p{
+      font-size:22px;
+      font-weight: 600;
+      width:600px;
+      position:relative;
+      left:65px;
+      top:17px;
+    }
+
+   .p img {
+    width:300px;
+    position: relative;
+    left:35px;
+    top:-17px;
+   }
+
+ /*-------------------------------------------------------------------------------------------------------------------------*/
+   .l{
+    width:100%;
+    height:350px;
+    margin-top:50px;
+     transition: 0.5s;
+    }
+   .l p{
+      font-size:25px;
+      font-weight: 600;
+      width:620px;
+      position:relative;
+      left:60px;
+      top:-5px;
+
+  }
+
+  .l img {
+    width:300px;
+     height:200px;
+    position: relative;
+    left:25px;
+    top:-40px;
+  }
+
+
+.glav{
+
+    height:2000px;
+  }
+
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+   body{
+       background-size: 100% 41%;
+       background-position:top;
+
+   }
+
+    header li{
+       font-size:32px;
+       margin:20px 30px 10px 0px ;
+    }
+
+    .icon{
+       width:46px;
+       position:relative;
+       left: -5px;
+       top:15px;
+    }
+
+    .r{
+         margin-top:170px;
+    }
+    header{
+      padding:20px 0px 0px 0px ;
+
+    }
+  /*-------------------------------------------------------------------------------------------------------------------------*/
+    .p{
+    width:100%;
+    height:260px;
+    margin-top:30px;
+     transition: 0.5s;
+    }
+   .p p{
+      font-size:20px;
+      font-weight: 600;
+      width:330px;
+      position:relative;
+      left:20px;
+      top:50px;
+
+ }
+
+ .p img {
+    width:300px;
+    position: relative;
+    left:35px;
+    top:30px;
+}
+ /*-------------------------------------------------------------------------------------------------------------------------*/
+ .o{
+    width:100%;
+    height:260px;
+    margin-top:470px;
+
+    }
+  .o p{
+      font-size:20px;
+      font-weight: 600;
+      width:330px;
+      position:relative;
+      left:20px;
+      top:60px;
+
+ }
+
+ .o img {
+    width:300px;
+    position: relative;
+    left:35px;
+    top:35px;
+
+}
+/*-------------------------------------------------------------------------------------------------------------------------*/
+  .l{
+    width:100%;
+    height:260px;
+    margin-top:440px;
+     transition: 0.5s;
+    }
+  .l p{
+      font-size:20px;
+      font-weight: 600;
+      width:330px;
+      position:relative;
+      left:20px;
+      top:50px;
+
+ }
+
+ .l img {
+    width:300px;
+     height:200px;
+    position: relative;
+    left:35px;
+    top:25px;
+}
+
+
+ /*-------------------------------------------------------------------------------------------------------------------------*/
+ .glav h1{
+    padding: 10px 0px 10px 30px;
+    width:250px;
+    font-size: 30px;
+
+
+ }
+ .glav{
+    margin-top:150px;
+    padding:30px 0px 0px 0px;
+    height:2200px;
+  }
+
+}
+
